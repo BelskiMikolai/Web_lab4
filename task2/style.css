@@ -1,0 +1,23 @@
+
+.cursor{
+    margin-bottom: 40px;
+    width: 150px;
+    height: 150px;
+    outline: 1px solid;
+}
+
+.cursor:nth-child(1){
+    cursor: pointer;
+}
+
+.cursor:nth-child(2){
+    cursor: progress;
+}
+
+.cursor:nth-child(3){
+    cursor: wait;
+}
+
+.cursor:nth-child(4){
+    cursor: url('Cool-icon.ico') -7 -4, auto;
+}

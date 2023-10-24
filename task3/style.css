@@ -1,0 +1,18 @@
+
+p{
+    display: block;
+    margin-bottom: 20px;
+}
+
+p:nth-child(1){
+    text-decoration: underline wavy blue;
+}
+p:nth-child(2){
+    text-decoration: underline dotted palevioletred;
+}
+p:nth-child(3){
+    text-decoration: underline dashed green;
+}
+p:nth-child(4){
+    text-decoration: underline double red;
+}

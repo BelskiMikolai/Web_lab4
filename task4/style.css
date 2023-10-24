@@ -1,0 +1,19 @@
+
+p{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: justify;
+    margin: 5px;
+}
+div{
+    border: 1px solid;
+    margin-bottom: 20px;
+}
+div:hover{
+    height: auto;
+}
+div:hover p{
+    text-overflow: initial;
+    white-space: initial;
+}

@@ -1,0 +1,18 @@
+
+textarea{
+    display: block;
+    margin-bottom: 40px;
+    height: 100px;
+}
+
+textarea:nth-child(2){
+    resize: none;
+}
+
+textarea:nth-child(3){
+    resize: horizontal;
+}
+
+textarea:nth-child(4){
+    resize: vertical;
+}

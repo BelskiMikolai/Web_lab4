@@ -1,0 +1,84 @@
+
+main > *{
+    margin-bottom: 30px;
+}
+
+
+.linear{
+    width: 600px;
+}
+.linear > div{
+    height: 150px;
+    width: 150px;
+    margin-right: 5px;
+    display: inline-block;
+    border: 1px solid;
+}
+.linear > div:nth-child(1){
+    background: linear-gradient(rgb(242,221,74), #FDFBE6);
+}
+.linear > div:nth-child(2){
+    background: linear-gradient(to left, rgb(242,221,74), #FDFBE6);
+}
+.linear > div:nth-child(3){
+    background: linear-gradient(to right, rgb(242,221,74), #FDFBE6);
+}
+.linear > div:nth-child(4){
+    background: linear-gradient(#ff0000 33% , #ffff 33% 66%, #ff0000 66%);
+    width: 230px;
+}
+.linear > div:nth-child(5){
+    background: linear-gradient(to right, rgb(255, 0, 0), rgb(43, 0, 255) 50%, rgb(255, 255, 255) 85%, rgb(255, 0, 0));
+    width: 230px;
+}
+
+
+
+
+.radial{
+    width: 700px;
+}
+
+.radial > div{
+    height: 150px;
+    width: 300px;
+    margin-right: 5px;
+    display: inline-block;
+    border: 1px solid;
+}
+.radial > div:nth-child(1){
+    width: 150px;
+}
+.radial > div:nth-child(1),.radial > div:nth-child(2){
+    background: radial-gradient(rgb(181, 219, 255),rgb(0, 127, 217));
+}
+.radial > div:nth-child(3){
+    background: radial-gradient(closest-side at 40px 40px, rgb(181, 219, 255),rgb(0, 127, 217));
+}
+.radial > div:nth-child(4){
+    background: radial-gradient(circle, rgb(0, 0, 0),rgb(255, 255, 255) 8% 10%, green 13%);
+}
+
+
+
+.repeat{
+    width: 600px;
+}
+.repeat > div{
+    height: 150px;
+    width: 100%;
+    margin-bottom: 5px;
+    border: 1px solid;
+}
+.repeat > div:nth-child(1){
+    background: repeating-linear-gradient(white 0 10px,black 10px 20px);
+}
+.repeat > div:nth-child(2){
+    background: repeating-linear-gradient(45deg, white 0 10px,red 10px 20px);
+    height: 75px;
+}
+.repeat > div:nth-child(3){
+    background: repeating-radial-gradient(circle, white 0 5px,black 5px 10px);
+    height: 300px;
+    
+}

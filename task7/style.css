@@ -1,0 +1,31 @@
+
+button.but, a.but{
+    user-select: none;
+    font:  1em "Arial", sans-serif;
+    margin: 1em;
+    padding: 0.6em;
+    border: 0;
+    border-radius: 0.5em;
+    background-color: rgb(152, 152, 152);
+    transition: 0.5s;
+    cursor: pointer;
+    color: black;
+}
+
+button.but:hover, a.but:hover{
+    box-shadow: 0.2em 0.2em 0.7em 0.01em rgba(0, 0, 0, 0.489);
+}
+
+button.but:active, a.but:active{
+    box-shadow: 0.2em 0.2em 0.9em 0.01em rgba(0, 0, 0, 0.668) inset;
+}
+
+main *:nth-child(1){
+    font-size:small;
+}
+main *:nth-child(2){
+    font-size:medium;
+}
+main *:nth-child(3){
+    font-size:x-large;
+}

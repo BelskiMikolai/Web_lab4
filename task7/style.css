@@ -1,31 +1,19 @@
 
-button.but, a.but{
-    user-select: none;
-    font:  1em "Arial", sans-serif;
-    margin: 1em;
-    padding: 0.6em;
-    border: 0;
-    border-radius: 0.5em;
-    background-color: rgb(152, 152, 152);
-    transition: 0.5s;
-    cursor: pointer;
-    color: black;
+.shadow{
+    margin: 20px 60px 90px;
+    width: 150px;
+    height: 150px;
+    outline: 1px solid;
 }
 
-button.but:hover, a.but:hover{
-    box-shadow: 0.2em 0.2em 0.7em 0.01em rgba(0, 0, 0, 0.489);
+.shadow:nth-child(1){
+    box-shadow: 20px 25px 10px rgba(0, 0, 0, 0.532);
 }
+.shadow:nth-child(2){
+    box-shadow: 20px 25px 10px rgba(0, 0, 0, 0.532),
+                -20px -25px 10px rgba(0, 0, 0, 0.532);
 
-button.but:active, a.but:active{
-    box-shadow: 0.2em 0.2em 0.9em 0.01em rgba(0, 0, 0, 0.668) inset;
 }
-
-main *:nth-child(1){
-    font-size:small;
-}
-main *:nth-child(2){
-    font-size:medium;
-}
-main *:nth-child(3){
-    font-size:x-large;
+.shadow:nth-child(3){
+    box-shadow: 7px 7px 8px rgba(0, 0, 0, 0.532) inset;
 }

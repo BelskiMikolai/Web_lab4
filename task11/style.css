@@ -1,0 +1,28 @@
+@media screen and (max-width: 600px)  {
+    /*Телефоны, планшеты*/
+    main{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 4px;
+    }
+}
+@media screen and (min-width: 600px) {
+    /*Компьютеры*/
+    main{
+        display: grid;
+        grid-template-columns: repeat(2,40px);
+        grid-template-rows: repeat(3,60px);
+        grid-auto-flow: row;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+main > div{
+    padding: 1%;
+    border: 1px solid;
+    word-break: break-all;
+}
+main > div p{
+    margin: 0;
+}

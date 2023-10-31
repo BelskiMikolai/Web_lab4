@@ -1,0 +1,18 @@
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+main div{
+    background-color: blue;
+    color: aliceblue;
+    flex: auto;
+    margin: 20px;
+    height: 500px;
+    min-width: 200px;
+}
+main div p {
+    margin: 5%;
+}

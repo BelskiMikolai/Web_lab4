@@ -1,0 +1,13 @@
+
+main{
+    width: 75%;
+    margin: auto;
+}
+main h1{
+    column-span: all;
+}
+main p{
+    margin: 0;
+    columns: 3 100px;
+    text-align: justify;
+}

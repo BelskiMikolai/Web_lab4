@@ -1,0 +1,35 @@
+
+main{
+    width: 900px;
+}
+
+section{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+section h4{
+    margin: 10px 0;
+}
+section img{
+    width: 200px;
+}
+
+section:nth-child(1) > img:last-child{
+    filter: grayscale();
+}
+section:nth-child(2) > img:last-child{
+    filter: sepia();
+}
+section:nth-child(3) > img:last-child{
+    filter: saturate(50%);
+}
+section:nth-child(4) > img:last-child{
+    filter: hue-rotate(90deg);
+}
+section:nth-child(5) > img:last-child{
+    filter: invert();
+}
+section:nth-child(6) > img:last-child{
+    filter: contrast(50%);
+}
